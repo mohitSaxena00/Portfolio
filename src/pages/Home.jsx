@@ -62,11 +62,11 @@ function Home() {
 
           {/* <div>contact</div> */}
           <div>
-             <div class="flex gap-5 mt-10">
-        <button class="bg-yellow-400 px-8 py-3 rounded-full font-semibold shadow-lg hover:bg-black hover:text-white duration-300">
+             <div className="flex gap-5 mt-10">
+        <button className="bg-yellow-400 px-8 py-3 rounded-full font-semibold shadow-lg hover:bg-black hover:text-white duration-300">
           Download CV
         </button>
-        <button class="border-2 border-black px-8 py-3 rounded-full font-semibold hover:bg-yellow-400 duration-300">
+        <button className="border-2 border-black px-8 py-3 rounded-full font-semibold hover:bg-yellow-400 duration-300">
           Hire Me
         </button>
       </div>
@@ -196,30 +196,30 @@ As a learner and aspiring developer, I am always excited to explore new technolo
 
            <div id="projects" className="h-[650px] w-full border-0 bg-amber-200">
             
-            <div class="max-w-6xl mx-auto">
+            <div className="max-w-6xl mx-auto">
 
-           <div class="text-center mb-16">
-          <h2 class="text-5xl font-bold mb-4">
-           My <span class="text-red-500">Services</span>
+           <div className="text-center mb-16">
+          <h2 className="text-5xl font-bold mb-4">
+           My <span className="text-red-500">Services</span>
             </h2>
-            <p class="text-gray-700 max-w-2xl mx-auto">
+            <p className="text-gray-700 max-w-2xl mx-auto">
              I create modern and responsive websites with clean UI/UX
               and smooth user experience for clients.
             </p>
                </div>
 
-    <div class="space-y-7">
+    <div className="space-y-7">
 
-      <div class="group border border-gray-700 rounded-2xl p-8 hover:bg-yellow-400 hover:text-black transition duration-500">
-        <div class="grid md:grid-cols-3 gap-6 items-center">
+      <div className="group border border-gray-700 rounded-2xl p-8 hover:bg-yellow-400 hover:text-black transition duration-500">
+        <div className="grid md:grid-cols-3 gap-6 items-center">
           
-          <h1 class="text-5xl font-bold">01</h1>
+          <h1 className="text-5xl font-bold">01</h1>
 
-          <h2 class="text-3xl font-semibold">
+          <h2 className="text-3xl font-semibold">
             Web Development
           </h2>
 
-          <p class="text-gray-800 group-hover:text-black">
+          <p className="text-gray-800 group-hover:text-black">
             Modern responsive website development using HTML,
             CSS, JavaScript, React and Tailwind CSS.
           </p>
@@ -228,16 +228,16 @@ As a learner and aspiring developer, I am always excited to explore new technolo
       </div>
 
     
-      <div class="group border border-gray-700 rounded-2xl p-8 hover:bg-yellow-400 hover:text-black transition duration-500">
-        <div class="grid md:grid-cols-3 gap-6 items-center">
+      <div className="group border border-gray-700 rounded-2xl p-8 hover:bg-yellow-400 hover:text-black transition duration-500">
+        <div className="grid md:grid-cols-3 gap-6 items-center">
           
-          <h1 class="text-5xl font-bold">02</h1>
+          <h1 className="text-5xl font-bold">02</h1>
 
-          <h2 class="text-3xl font-semibold">
+          <h2 className="text-3xl font-semibold">
             UI/UX Design
           </h2>
 
-          <p class="text-gray-800 group-hover:text-black">
+          <p className="text-gray-800 group-hover:text-black">
             Attractive and user-friendly UI/UX design with
             clean layouts and better user experience.
           </p>
@@ -245,16 +245,16 @@ As a learner and aspiring developer, I am always excited to explore new technolo
         </div>
       </div>
      
-      <div class="group border border-gray-700 rounded-2xl p-8 hover:bg-yellow-400 hover:text-black transition duration-500">
-        <div class="grid md:grid-cols-3 gap-6 items-center">
+      <div className="group border border-gray-700 rounded-2xl p-8 hover:bg-yellow-400 hover:text-black transition duration-500">
+        <div className="grid md:grid-cols-3 gap-6 items-center">
           
-          <h1 class="text-5xl font-bold">03</h1>
+          <h1 className="text-5xl font-bold">03</h1>
 
-          <h2 class="text-3xl font-semibold">
+          <h2 className="text-3xl font-semibold">
             Content Writing
           </h2>
 
-          <p class="text-gray-800 group-hover:text-black">
+          <p className="text-gray-800 group-hover:text-black">
             Professional content writing for websites,
             blogs and social media platforms.
           </p>
