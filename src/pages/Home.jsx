@@ -14,7 +14,6 @@ import Vercel from "../assets/skills/Vercel.svg";
 import react from "../assets/skills/react.svg";
 import mohit from "../assets/skills/mohit.png";
 import images from "../assets/skills/images.jpg";
-import "./style.css";
 
 
 
