@@ -1,22 +1,23 @@
-import HTML5 from "../assets/skills/HTML5.svg";
+
+import HTML5 from "../assets/skills/HTML5.svg"
 import CSS3 from "../assets/skills/CSS3.svg";
-import javaScript from "../assets/skills/javaScript.svg";
+import JavaScript from "../assets/skills/JavaScript.svg";
 import Bootstrap from "../assets/skills/Bootstrap.svg";
 import CodePen from "../assets/skills/CodePen.svg";
 import Express from "../assets/skills/Express.svg";
 import Git from "../assets/skills/Git.svg";
 import GitHub from "../assets/skills/GitHub.svg";
 import MongoDB from "../assets/skills/MongoDB.svg";
-import Node from "../assets/skills/Node.js.svg";
+import Node from "../assets/skills/Node.svg";
 import React from "../assets/skills/React.svg";
-import Tailwind from "../assets/skills/Tailwind CSS.svg";
+import Tailwind from "../assets/skills/Tailwindcss.svg";
 import Vercel from "../assets/skills/Vercel.svg";
 import mohit from "../assets/skills/mohit.png";
 import images from "../assets/skills/images.jpg";
 
 function Home() {
   return (
-    <div className="h-full w-full scroll-smooth">
+    <div className="h-full w-full scroll-smooth select-none">
 
       {/* Navbar */}
       <div className="navi bg-amber-300 flex justify-between h-[70px] sticky top-0 z-50">
@@ -51,10 +52,12 @@ function Home() {
         </button>
       </div>
 
-      {/* Home */}
-      <div id="home" className="flex bg-amber-200 h-[650px] w-full">
 
-        <div className="m-[60px] h-[400px] w-[500px]">
+
+      {/* Home */}
+      <div id="home" className="flex bg-amber-200 h-[650px] w-full pt-15  scroll-mt-20">
+
+        <div className="m-[60px] h-[400px] w-[500px] ">
 
           <h3 className="text-[30px]">
             I am Mohit
@@ -92,14 +95,16 @@ function Home() {
 
       </div>
 
+
+
       {/* About */}
-      <div id="about" className="bg-amber-200 h-[650px] w-full">
+      <div id="about" className="bg-amber-200 h-[650px] w-full scroll-mt-20">
 
         <h1 className="font-bold text-[30px] ml-[650px]">
           About Me
         </h1>
 
-        <div className="flex ml-30">
+        <div className="flex ml-[90px]">
 
           <div className="h-[400px] w-[300px] mt-[60px] rounded-2xl">
             <img
@@ -109,7 +114,7 @@ function Home() {
             />
           </div>
 
-          <div className="h-[400px] w-[900px] font-medium mt-10 ml-8 leading-10">
+          <div className="h-[400px] w-[900px] font-medium mt-14 ml-14 leading-10">
 
             I am Mohit Saxena, a passionate and dedicated Full Stack Web
             Developer currently pursuing my BCA degree. I have completed
@@ -139,132 +144,78 @@ function Home() {
         </div>
       </div>
 
+
+
+
       {/* Skills */}
-      <div id="skills" className="h-[620px] w-full bg-amber-200">
+      <div id="skills" className="h-[680px] w-full bg-amber-200 scroll-mt-20">
 
         <h1 className="font-bold text-[50px] ml-[700px]">
           Skills
         </h1>
 
-        <div className="flex flex-wrap justify-center gap-7 pt-6">
+          <div className=" flex flex-wrap justify-center gap-5 pt-3">
+                    <div className=" h-[120px] w-[120px] rounded-3xl ml-5">
+                      <img src={HTML5} alt="HTML5" className="h-full w-full p-6 hover:-translate-y-2 hover:scale-105 hover:shadow-2xl transition-all duration-500 cursor-pointer" />
+                    </div>
+                    <div className=" h-[120px] w-[120px] rounded-3xl ml-5">
+                      <img src={CSS3} alt="CSS3" className="h-full w-full p-6 hover:-translate-y-2 hover:scale-105 hover:shadow-2xl transition-all duration-500 cursor-pointer" />
+                    </div>
+                    <div className=" h-[120px] w-[120px] rounded-3xl ml-5">
+                      <img
+                        src={JavaScript}
+                        alt="JavaScript"
+                        className="h-full w-full p-6 hover:-translate-y-2 hover:scale-105 hover:shadow-2xl transition-all duration-500 cursor-pointer"
+                      />
+                    </div>
+                    <div className=" h-[120px] w-[120px] rounded-3xl ml-5">
+                      <img
+                        src={Bootstrap}
+                        alt="Bootstrap"
+                        className="h-full w-full p-6 hover:-translate-y-2 hover:scale-105 hover:shadow-2xl transition-all duration-500 cursor-pointer"
+                      />
+                    </div>
+                    <div className=" h-[120px] w-[120px] rounded-3xl ml-5">
+                      <img src={Tailwind} alt="Tailwind" className="h-full w-full p-6 hover:-translate-y-2 hover:scale-105 hover:shadow-2xl transition-all duration-500 cursor-pointer" />
+                    </div>
+                    <div className=" h-[120px] w-[120px] rounded-3xl ml-5">
+                      <img src={React} alt="React" className="h-full w-full p-6 hover:-translate-y-2 hover:scale-105 hover:shadow-2xl transition-all duration-500 cursor-pointer" />
+                    </div>
+                    <div className=" h-[120px] w-[120px] rounded-3xl ml-5">
+                      <img src={Node} alt="Nodejs" className="h-full w-full p-6 hover:-translate-y-2 hover:scale-105 hover:shadow-2xl transition-all duration-500 cursor-pointer" />
+                    </div>
+                    <div className=" h-[120px] w-[120px] rounded-3xl ml-5">
+                      <img src={MongoDB} alt="MongoDB" className="h-full w-full p-6 hover:-translate-y-2 hover:scale-105 hover:shadow-2xl transition-all duration-500 cursor-pointer" />
+                    </div>
+                    <div className=" h-[120px] w-[120px] rounded-3xl ml-5">
+                      <img src={Express} alt="Express" className="h-full w-full p-6 hover:-translate-y-2 hover:scale-105 hover:shadow-2xl transition-all duration-500 cursor-pointer" />
+                    </div>
+                    <div className=" h-[120px] w-[120px] rounded-3xl ml-5">
+                      <img src={Git} alt="Git" className="h-full w-full p-6 hover:-translate-y-2 hover:scale-105 hover:shadow-2xl transition-all duration-500 cursor-pointer" />
+                    </div>
+          
+                    <div className=" h-[120px] w-[120px] rounded-3xl ml-5">
+                      <img src={GitHub} alt="GitHub" className="h-full w-full p-6 hover:-translate-y-2 hover:scale-105 hover:shadow-2xl transition-all duration-500 cursor-pointer" />
+                    </div>
+          
+                    <div className=" h-[120px] w-[120px] rounded-3xl ml-5">
+                      <img src={CodePen} alt="CodePen" className="h-full w-full p-6 hover:-translate-y-2 hover:scale-105 hover:shadow-2xl transition-all duration-500 cursor-pointer" />
+                    </div>
+          
+                    <div className=" h-[120px] w-[120px] rounded-3xl ml-5">
+                      <img src={Vercel} alt="Vercel" className="h-full w-full p-6 hover:-translate-y-2 hover:scale-105 hover:shadow-2xl transition-all duration-500 cursor-pointer" />
+                    </div>
+                  </div>
 
-          {[
-            HTML5,
-            CSS3,
-            javaScript,
-            Bootstrap,
-            CodePen,
-            Express,
-            Git,
-            GitHub,
-            MongoDB,
-            Node,
-            React,
-            Tailwind,
-            Vercel,
-          ].map((skill, index) => (
-            <div
-              key={index}
-              className="h-[120px] w-[120px] rounded-3xl ml-5
-              hover:-translate-y-5 hover:scale-105 hover:shadow-2xl
-              transition-all duration-500 cursor-pointer"
-            >
-              <img
-                src={skill}
-                alt="skill"
-                className="h-full w-full p-5"
-              />
-            </div>
-          ))}
 
-        </div>
+
       </div>
 
-      {/* Services */}
-      <div className="h-[650px] w-full bg-amber-200">
-
-        <div className="max-w-6xl mx-auto">
-
-          <div className="text-center mb-16">
-
-            <h2 className="text-5xl font-bold mb-4">
-              My <span className="text-red-500">Services</span>
-            </h2>
-
-            <p className="text-gray-700 max-w-2xl mx-auto">
-              I create modern and responsive websites with clean UI/UX
-              and smooth user experience for clients.
-            </p>
-
-          </div>
-
-          <div className="space-y-7">
-
-            {/* Service 1 */}
-            <div className="group border border-gray-700 rounded-2xl p-8 hover:bg-yellow-400 hover:text-black transition duration-500">
-
-              <div className="grid md:grid-cols-3 gap-6 items-center">
-
-                <h1 className="text-5xl font-bold">01</h1>
-
-                <h2 className="text-3xl font-semibold">
-                  Web Development
-                </h2>
-
-                <p className="text-gray-800 group-hover:text-black">
-                  Modern responsive website development using HTML,
-                  CSS, JavaScript, React and Tailwind CSS.
-                </p>
-
-              </div>
-            </div>
-
-            {/* Service 2 */}
-            <div className="group border border-gray-700 rounded-2xl p-8 hover:bg-yellow-400 hover:text-black transition duration-500">
-
-              <div className="grid md:grid-cols-3 gap-6 items-center">
-
-                <h1 className="text-5xl font-bold">02</h1>
-
-                <h2 className="text-3xl font-semibold">
-                  UI/UX Design
-                </h2>
-
-                <p className="text-gray-800 group-hover:text-black">
-                  Attractive and user-friendly UI/UX design with
-                  clean layouts and better user experience.
-                </p>
-
-              </div>
-            </div>
-
-            {/* Service 3 */}
-            <div className="group border border-gray-700 rounded-2xl p-8 hover:bg-yellow-400 hover:text-black transition duration-500">
-
-              <div className="grid md:grid-cols-3 gap-6 items-center">
-
-                <h1 className="text-5xl font-bold">03</h1>
-
-                <h2 className="text-3xl font-semibold">
-                  Content Writing
-                </h2>
-
-                <p className="text-gray-800 group-hover:text-black">
-                  Professional content writing for websites,
-                  blogs and social media platforms.
-                </p>
-
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
 
       {/* Projects */}
       <div
         id="myprojects"
-        className="h-[650px] w-full bg-amber-200"
+        className="h-[650px] w-full bg-amber-200 scroll-mt-20"
       >
 
         <h1 className="font-bold text-[30px] ml-[700px]">
@@ -289,6 +240,7 @@ function Home() {
               HTML + CSS
             </div>
           </div>
+
 
           {/* Project 2 */}
           <div className="border-2 bg-white h-[270px] w-[360px] rounded-3xl ml-5 hover:-translate-y-2 hover:scale-105 hover:shadow-2xl transition-all duration-500 cursor-pointer">
@@ -326,6 +278,8 @@ function Home() {
 
         </div>
       </div>
+
+
 
       {/* Contact */}
       <div
