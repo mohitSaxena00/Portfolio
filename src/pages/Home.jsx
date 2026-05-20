@@ -11,7 +11,6 @@ import Node from "../assets/skills/Node.js.svg";
 import React from "../assets/skills/React.svg";
 import Tailwind from "../assets/skills/Tailwind CSS.svg";
 import Vercel from "../assets/skills/Vercel.svg";
-import react from "../assets/skills/react.svg";
 import mohit from "../assets/skills/mohit.png";
 import images from "../assets/skills/images.jpg";
 
